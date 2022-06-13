@@ -11,6 +11,7 @@
         Test module using lumber to learn about Odoo architecture
         """,
         'data': [
+            'security/ir.model.access.csv',
             # 'views/lumber_view.xml',
             ],
         'application': True,

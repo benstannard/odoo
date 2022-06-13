@@ -8,7 +8,7 @@ class LumberPackage(models.Model):
     name = fields.Text(required=True)
     kind = fields.Selection(
             string='Type',
-            selection=[('boards', 'Boards'), ('dimensional', 'Dimensional'), ('timber', 'Timber')]
+            selection=[('boards', 'Boards'), ('dimensional', 'Dimensional'), ('timber', 'Timber')])
     thickness = fields.Float(require=True)
     width = fields.Float(require=True)
     lengeth = fields.Float(require=True)
