@@ -11,6 +11,6 @@ class LumberPackage(models.Model):
             selection=[('boards', 'Boards'), ('dimensional', 'Dimensional'), ('timber', 'Timber')])
     thickness = fields.Float(require=True)
     width = fields.Float(require=True)
-    lengeth = fields.Float(require=True)
+    length = fields.Float(require=True)
     quantiy = fields.Integer(require=True)
     price = fields.Float(require=True)

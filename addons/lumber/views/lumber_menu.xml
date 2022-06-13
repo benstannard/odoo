@@ -1,0 +1,12 @@
+<odoo>
+    <!-- Lumber App Menu -->
+    <record id="action_lumber_package" model="ir.actions.act_window">
+        <field name="name">Lumber</field>
+        <field name="res_model">lumber.package</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_lumber" name="Lumber"
+        action="action_lumber_package"
+        />
+</odoo>

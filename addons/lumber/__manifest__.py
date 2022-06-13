@@ -12,7 +12,7 @@
         """,
         'data': [
             'security/ir.model.access.csv',
-            # 'views/lumber_view.xml',
+            'views/lumber_menu.xml',
             ],
         'application': True,
         'installable': True,
